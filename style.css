@@ -1,8 +1,14 @@
+* {
+    transition: all 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
-    background: slategray;
+    background: cadetblue;
     padding: 0;
     margin: 0;
     text-align: center;
+    font-size: 120%;
 }
 
 .container {
@@ -18,15 +24,35 @@ body {
 .head {
     background: white;
     min-width: 300px;
-    width: 70%;
+    width: 60%;
     padding: 10px;
+    margin-bottom: 15px;
 }
 
-.category {
+.categoria {
     opacity: 0.3;
     text-align: left;
 }
 
-.question {
+.pregunta {
     padding: 10px;
+}
+
+.imagen {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    background: slategray;
+}
+
+.btn {
+    background: white;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: orange;
+    cursor: pointer;
 }

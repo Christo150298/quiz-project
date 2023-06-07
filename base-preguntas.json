@@ -6,7 +6,447 @@
         "incorrecta1": "Picasso",
         "incorrecta2": "Miguel Angel",
         "incorrecta3": "Monet",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mona_Lisa_face_800x800px.jpg",
+        "imagen": "https://i.ibb.co/Mg0ffp6/mona-lisa.jpg",
         "object_fit": "cover"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué enfermedad se caracteriza por repentinos ataques de sueño?",
+        "respuesta": "Narcolepsia",
+        "incorrecta1": "Somnolencia ",
+        "incorrecta2": "Insomnio",
+        "incorrecta3": "Hipersomnia\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Cuál de las siguientes enfermedades es muy común en los mayores por la disminución de la densidad de los huesos?",
+        "respuesta": "Osteoporosis ",
+        "incorrecta1": "Esclerosis",
+        "incorrecta2": "Artrosis",
+        "incorrecta3": "Bursitis\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué tiene más concentración de sal?",
+        "respuesta": "La Orina ",
+        "incorrecta1": "La Sangre",
+        "incorrecta2": "El Sudo",
+        "incorrecta3": "Las Lágrimas\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " Si padeces la enfermedad de Crohn o colitis ulcerosa, tienes una enfermedad...",
+        "respuesta": "Intestinal",
+        "incorrecta1": "Cerebral",
+        "incorrecta2": "Estomacal",
+        "incorrecta3": "Visual\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Cómo se llama la torcedura de una articulación en el cuerpo?",
+        "respuesta": "Esguince ",
+        "incorrecta1": "Desgarro",
+        "incorrecta2": "Rotura",
+        "incorrecta3": "Contusión\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué es el colesterol?",
+        "respuesta": "Un Lípido",
+        "incorrecta1": "Una Proteína",
+        "incorrecta2": "Un Glúcido",
+        "incorrecta3": "Un Ácido Nucleico\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Cómo se denomina el juramento que realizan los médicos?",
+        "respuesta": "Hipocrático",
+        "incorrecta1": "Aristocrático",
+        "incorrecta2": "Medicinal",
+        "incorrecta3": "Doctorado\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué significan las siglas \"www\"?",
+        "respuesta": "World Wide Web",
+        "incorrecta1": "Todas Son Correctas",
+        "incorrecta2": "Wikipedia World Web",
+        "incorrecta3": "World Wild West\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué es la queratina?",
+        "respuesta": "Una Proteína",
+        "incorrecta1": "Un Lípido",
+        "incorrecta2": "Un Ácido Nucleico",
+        "incorrecta3": "Veneno\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+        "respuesta": "Mano ",
+        "incorrecta1": "Pelvis",
+        "incorrecta2": "Mandíbula",
+        "incorrecta3": "Corazón\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Con qué suele arreglarse un diente con caries?",
+        "respuesta": "Empaste",
+        "incorrecta1": "Extrayéndolo",
+        "incorrecta2": "Limpieza Bucal",
+        "incorrecta3": "Ortodoncia\r",
+        "imagen": "https://i.ibb.co/TLd7XTv/35.jpg"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuál es la ciencia que estudia la aplicación de la informática y las comunicaciones al hogar?",
+        "respuesta": "Domótica",
+        "incorrecta1": "Robótica",
+        "incorrecta2": "Casática",
+        "incorrecta3": "Autología\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Qué es el gavial (Gavialis gangeticus)?",
+        "respuesta": "Cocodrilo",
+        "incorrecta1": "Hipopótamo",
+        "incorrecta2": "Serpiente",
+        "incorrecta3": "Tiburón\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "respuesta": "H2O",
+        "incorrecta1": "HO",
+        "incorrecta2": "HO2",
+        "incorrecta3": "Agu\r",
+        "imagen": "https://i.ibb.co/g6kcqTK/thumbs-b-c-0970f11a6d81d650d9c47ea21f10a751.jpg"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el símbolo de Bromo?",
+        "respuesta": "Br",
+        "incorrecta1": "No Es Un Elemento, Es Un Compuesto",
+        "incorrecta2": "B",
+        "incorrecta3": "BH\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuáles son los efectos de la prolactina?",
+        "respuesta": "Producción De Leche",
+        "incorrecta1": "Crecimiento Del Cabello",
+        "incorrecta2": "Ayuda Al Parto",
+        "incorrecta3": "Ninguna Es Correcta\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Qué compuesto químico es el componente activo de los pimientos picantes?",
+        "respuesta": "Capsaicina",
+        "incorrecta1": "Celobiosa",
+        "incorrecta2": "Galactosa",
+        "incorrecta3": "Glucosa\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿En qué parte del cuerpo se encuentra el tendón de Aquiles?",
+        "respuesta": "En El Tobillo",
+        "incorrecta1": "En El  Brazo ",
+        "incorrecta2": "En La Espalda",
+        "incorrecta3": "En La Rodilla\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el símbolo del Sodio?",
+        "respuesta": "Na",
+        "incorrecta1": "Mn",
+        "incorrecta2": "Li",
+        "incorrecta3": "Au\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el nombre común del ácido ascórbico?",
+        "respuesta": "Vitamina C",
+        "incorrecta1": "Ácido Cítrico",
+        "incorrecta2": "Vitamina B6",
+        "incorrecta3": "Vitamina B12\r"
+    },
+    {
+        "categoria": "Internet",
+        "pregunta": "¿Cómo se llama la página web más famosa del mundo en la que se puede visualizar videos de todo tipo?",
+        "respuesta": "Youtube",
+        "incorrecta1": "Cinetube",
+        "incorrecta2": "Glooge",
+        "incorrecta3": "Videotube\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Qué sustancias se liberan en una combustión completa?",
+        "respuesta": "Dióxido De Carbono Y Agua",
+        "incorrecta1": "Monóxido De Carbono Y Agua",
+        "incorrecta2": "Carbono, Oxígeno Y Agua",
+        "incorrecta3": "Solamente Agua\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "Sistema operativo para telefonos más usado",
+        "respuesta": "Android",
+        "incorrecta1": "IOS",
+        "incorrecta2": "Microsoft",
+        "incorrecta3": "Windows\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Cómo se llaman las lesiones en la pared del tubo digestivo?",
+        "respuesta": "Úlcera",
+        "incorrecta1": "Quebradura",
+        "incorrecta2": "Ruptura",
+        "incorrecta3": "Hernia\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Cuál es la sustancia deficiente en los diabéticos?",
+        "respuesta": "Insulina",
+        "incorrecta1": "Glucagón",
+        "incorrecta2": "Incretina",
+        "incorrecta3": "Bilirrunina\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué componente de ADN se uno en su estructura con la guanina?",
+        "respuesta": "Citosina",
+        "incorrecta1": "Timina",
+        "incorrecta2": "Adenina",
+        "incorrecta3": "Ninguna Es Correcta\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": " ¿Qué nombre recibe el defecto visual que consiste en que el eje de los ojos no está centrado?",
+        "respuesta": "Estrabismo",
+        "incorrecta1": "Miopía",
+        "incorrecta2": "Astigmatismo",
+        "incorrecta3": "Hipermetropía\r"
+    },
+    {
+        "categoria": "Arte y literatura",
+        "pregunta": "Pintor de  \"El jardín de las delicias\"",
+        "respuesta": "El Bosco",
+        "incorrecta1": "Velásquez",
+        "incorrecta2": "Picasso",
+        "incorrecta3": "Dalí\r",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Arte y literatura",
+        "pregunta": "significado de  \"El jardín de las delicias\"",
+        "respuesta": "Mundo Terrenal",
+        "incorrecta1": "Es Mejor Morir",
+        "incorrecta2": "Dios Es El Camino",
+        "incorrecta3": "Adán Y Eva\r",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Cual es el Pais de Origen del futbolista Alexis Sanchez?",
+        "respuesta": "Chile",
+        "incorrecta1": "Perú",
+        "incorrecta2": "Mexico",
+        "incorrecta3": "Uruguay",
+        "imagen": "https://i.ibb.co/GCDLJVb/alexis-s-nchez-jpg.webp",
+        "object_fit": "cover"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Cómo se llama la zona de hierba rasa donde está ubicado el hoyo en golf?",
+        "respuesta": "Green",
+        "incorrecta1": "Esplanada",
+        "incorrecta2": "Campo",
+        "incorrecta3": "Terreno\r"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Cuál de estas frases NO fue dicha por Diego Armando Maradona?",
+        "respuesta": "La Pelota No Dobla",
+        "incorrecta1": "Pelé, Debutó Con Un Pibe",
+        "incorrecta2": "Segurola Y La Habana 4310 7mo Piso",
+        "incorrecta3": "La Pelota No Se Mancha\r"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Cuál de estos pilotos no es de F1?",
+        "respuesta": "Richard Petty",
+        "incorrecta1": "Fernando Alonso",
+        "incorrecta2": "Sebastian Vettel",
+        "incorrecta3": "Mark Webber\r"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿A qué tipo de billar se juega con más bolas?",
+        "respuesta": "Snooker",
+        "incorrecta1": "Bola 9",
+        "incorrecta2": "Billar Español",
+        "incorrecta3": "Billar Italiano\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " El cristianismo y el islamismo son las religiones más extendidas en el mundo. ¿Cuál es la siguiente?",
+        "respuesta": "El Hinduismo",
+        "incorrecta1": "El Budismo",
+        "incorrecta2": "Las Religiones Indígenas",
+        "incorrecta3": "La Religión Tradicional China\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Cuántos meses duró la Batalla de Moscú, que tuvo lugar durante la Segunda Guerra Mundial?",
+        "respuesta": "Tres",
+        "incorrecta1": "Cuatro",
+        "incorrecta2": "Cinco ",
+        "incorrecta3": "Seis \r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿En qué idioma se escribió el antiguo testamento por primera vez?",
+        "respuesta": "Hebreo",
+        "incorrecta1": "Griego",
+        "incorrecta2": "Latín",
+        "incorrecta3": "Jesuíta\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Quién recibió en 2009 el Premio Nobel de la Paz?",
+        "respuesta": "Barack Obama",
+        "incorrecta1": "Bill Clinton",
+        "incorrecta2": "Homer Simpson",
+        "incorrecta3": "Michelle Obama\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Cuál de estas afirmaciones sobre Buenaventura Durruti no es cierta?",
+        "respuesta": "Todas Son Ciertas",
+        "incorrecta1": "Militó En La CNT",
+        "incorrecta2": "Murió Al Comienzo De La Guerra Civil Española",
+        "incorrecta3": "Atracó El Banco De España En 1923\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Según el griego, qué significa el nombre \"Mesopotamia\"?",
+        "respuesta": "Entre Ríos",
+        "incorrecta1": "Ciudad Con Poderío",
+        "incorrecta2": "Arriba De Los Ríos",
+        "incorrecta3": "Dios Del Río\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Presidenta de Costa Rica en 2013?",
+        "respuesta": "Laura Chinchilla",
+        "incorrecta1": "Cristina Fernández De Kirchner",
+        "incorrecta2": "Isabel Martínez De Perón",
+        "incorrecta3": "Michelle Bachelet\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Qué universidad cumplió 125 años en 2011?",
+        "respuesta": "Deusto",
+        "incorrecta1": "Harvard ",
+        "incorrecta2": "Oxford",
+        "incorrecta3": "Uem\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Qué científico alemán trabajó NASA?",
+        "respuesta": "Wernher Von Braun",
+        "incorrecta1": "Claus Von Stauffenberg ",
+        "incorrecta2": "Joachim Von Ribbentrop",
+        "incorrecta3": "Ninguno De Ellos\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿En qué ciudad se proclamó la primera constitución liberal de España en 1812?",
+        "respuesta": "Cádiz ",
+        "incorrecta1": "Madrid ",
+        "incorrecta2": "San Fernando",
+        "incorrecta3": "Ninguna Es Correcta\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿En qué año empezó la Guerra del Golfo Pérsico?",
+        "respuesta": "1990",
+        "incorrecta1": "1985",
+        "incorrecta2": "1995",
+        "incorrecta3": "1999\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Durante qué años reinó de forma impuesta en España José Bonaparte?",
+        "respuesta": "Desde 1808 A 1813",
+        "incorrecta1": "Desde 1798 A 1810",
+        "incorrecta2": "Desde 1801 A 1805",
+        "incorrecta3": "Desde 1801 A 1812\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿En qué guerra se hundieron los buques Sheffiel y Coventry?",
+        "respuesta": "Malvinas",
+        "incorrecta1": "Primera Guerra Mundial",
+        "incorrecta2": "Segunda Guerra Mundial",
+        "incorrecta3": "Guerra De Independencia De EE.UU.\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": " ¿Cuál fue el primer trayecto en tren en España?",
+        "respuesta": "Barcelona  Mataró",
+        "incorrecta1": "Madrid  Barcelona",
+        "incorrecta2": "Madrid  Aranjuez",
+        "incorrecta3": "Madrid  Alicante\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿De qué país es originario el queso Emmental?",
+        "respuesta": "Suiza",
+        "incorrecta1": "Alemania",
+        "incorrecta2": "Francia",
+        "incorrecta3": "Holanda\r"
+    },
+    {
+        "categoria": "Historia",
+        "pregunta": "¿Presidenta de Costa Rica en 2014?",
+        "respuesta": "Luis Guillermo Solís",
+        "incorrecta1": " Monica Solís",
+        "incorrecta2": "Diego Solís",
+        "incorrecta3": "Cristina Solís"
+    },
+    {
+        "categoria": "Geografía",
+        "pregunta": "¿Cuál es el país menos turístico de Europa?",
+        "respuesta": "Liechtenstein",
+        "incorrecta1": "Hungría",
+        "incorrecta2": "Armenia",
+        "incorrecta3": "Moldavia\r"
+    },
+    {
+        "categoria": "Geografía",
+        "pregunta": "¿A qué país pertenece la isla de Tasmania?",
+        "respuesta": "Australia",
+        "incorrecta1": "Portugal",
+        "incorrecta2": "Estados Unidos",
+        "incorrecta3": "Ninguna Es Correcta\r"
+    },
+    {
+        "categoria": "Geografía",
+        "pregunta": "¿En cuál de los siguientes países NO hay ningún desierto?",
+        "respuesta": "Alemania",
+        "incorrecta1": "Mongolia",
+        "incorrecta2": "Chile",
+        "incorrecta3": "España\r"
+    },
+    {
+        "categoria": "Geografía",
+        "pregunta": "¿Cuál es el código internacional para Cuba?",
+        "respuesta": "CU",
+        "incorrecta1": "CA",
+        "incorrecta2": "CB",
+        "incorrecta3": "Ninguna Es Correcta\r"
     }
 ]
