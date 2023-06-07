@@ -19,6 +19,112 @@
     },
     {
         "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Con qué suele arreglarse un diente con caries?",
+        "respuesta": "Empaste",
+        "incorrecta1": "Extrayéndolo",
+        "incorrecta2": "Limpieza Bucal",
+        "incorrecta3": "Ortodoncia\r",
+        "imagen": "https://i.ibb.co/TLd7XTv/35.jpg"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuál es la ciencia que estudia la aplicación de la informática y las comunicaciones al hogar?",
+        "respuesta": "Domótica",
+        "incorrecta1": "Robótica",
+        "incorrecta2": "Casática",
+        "incorrecta3": "Autología\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Qué es el gavial (Gavialis gangeticus)?",
+        "respuesta": "Cocodrilo",
+        "incorrecta1": "Hipopótamo",
+        "incorrecta2": "Serpiente",
+        "incorrecta3": "Tiburón\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "respuesta": "H2O",
+        "incorrecta1": "HO",
+        "incorrecta2": "HO2",
+        "incorrecta3": "Agu\r",
+        "imagen": "https://i.ibb.co/g6kcqTK/thumbs-b-c-0970f11a6d81d650d9c47ea21f10a751.jpg"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el símbolo de Bromo?",
+        "respuesta": "Br",
+        "incorrecta1": "No Es Un Elemento, Es Un Compuesto",
+        "incorrecta2": "B",
+        "incorrecta3": "BH\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿Cuáles son los efectos de la prolactina?",
+        "respuesta": "Producción De Leche",
+        "incorrecta1": "Crecimiento Del Cabello",
+        "incorrecta2": "Ayuda Al Parto",
+        "incorrecta3": "Ninguna Es Correcta\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Qué compuesto químico es el componente activo de los pimientos picantes?",
+        "respuesta": "Capsaicina",
+        "incorrecta1": "Celobiosa",
+        "incorrecta2": "Galactosa",
+        "incorrecta3": "Glucosa\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "¿En qué parte del cuerpo se encuentra el tendón de Aquiles?",
+        "respuesta": "En El Tobillo",
+        "incorrecta1": "En El  Brazo ",
+        "incorrecta2": "En La Espalda",
+        "incorrecta3": "En La Rodilla\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el símbolo del Sodio?",
+        "respuesta": "Na",
+        "incorrecta1": "Mn",
+        "incorrecta2": "Li",
+        "incorrecta3": "Au\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Cuál es el nombre común del ácido ascórbico?",
+        "respuesta": "Vitamina C",
+        "incorrecta1": "Ácido Cítrico",
+        "incorrecta2": "Vitamina B6",
+        "incorrecta3": "Vitamina B12\r"
+    },
+    {
+        "categoria": "Internet",
+        "pregunta": "¿Cómo se llama la página web más famosa del mundo en la que se puede visualizar videos de todo tipo?",
+        "respuesta": "Youtube",
+        "incorrecta1": "Cinetube",
+        "incorrecta2": "Glooge",
+        "incorrecta3": "Videotube\r"
+    },
+    {
+        "categoria": "Química",
+        "pregunta": "¿Qué sustancias se liberan en una combustión completa?",
+        "respuesta": "Dióxido De Carbono Y Agua",
+        "incorrecta1": "Monóxido De Carbono Y Agua",
+        "incorrecta2": "Carbono, Oxígeno Y Agua",
+        "incorrecta3": "Solamente Agua\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
+        "pregunta": "Sistema operativo para telefonos más usado",
+        "respuesta": "Android",
+        "incorrecta1": "IOS",
+        "incorrecta2": "Microsoft",
+        "incorrecta3": "Windows\r"
+    },
+    {
+        "categoria": "Ciencia y técnologia",
         "pregunta": " ¿Cuál de las siguientes enfermedades es muy común en los mayores por la disminución de la densidad de los huesos?",
         "respuesta": "Osteoporosis ",
         "incorrecta1": "Esclerosis",

@@ -71,13 +71,13 @@ const desordenarRespuestas = (pregunta) => {
   
 const pulsarBoton = (i) => {
     if (posibles_respuestas[i] === pregunta.respuesta) {
-      botones[i].style.background = "green";
+      botones[i].style.background = "lightgreen";
     } else {
-      botones[i].style.background = "red";
+      botones[i].style.background = "pink";
       // Muestra la respuesta correcta en verde
       for (let j = 0; j < botones.length; j++) {
         if (posibles_respuestas[j] == pregunta.respuesta) {
-          botones[j].style.background = "green";
+          botones[j].style.background = "lightgreen";
           break;
         }
       }
