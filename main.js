@@ -1,12 +1,16 @@
 
 const select_id = (id) => {
     return document.getElementById(id);
-};
+  };
   
 const style = (id) => {
     return select_id(id).style;
 };
   
+let respuestasAcertadas = 0;
+let fallos = 0;
+let preguntasRespondidas = 0;
+let intentosRestantes = 5; // Nuevo contador de intentos
 let interprete_bp;
 let pregunta;
 let posibles_respuestas;
@@ -70,10 +74,39 @@ const desordenarRespuestas = (pregunta) => {
 };
   
 const pulsarBoton = (i) => {
+    if (preguntasRespondidas === 10 || intentosRestantes === 0) {
+      return; // No permitir más intentos después de 10 preguntas respondidas o si no hay más intentos
+    }
+  
+    preguntasRespondidas++;
     if (posibles_respuestas[i] === pregunta.respuesta) {
       botones[i].style.background = "lightgreen";
+      respuestasAcertadas++;
     } else {
       botones[i].style.background = "pink";
+      fallos++;
+      intentosRestantes--; // Disminuir los intentos restantes
+  
+      if (intentosRestantes === 0) {
+        Swal.fire({
+          title: "Juego terminado",
+          text: `Puntaje: ${respuestasAcertadas} / ${fallos + respuestasAcertadas}`,
+          icon: "error",
+          confirmButtonText: "Reiniciar"
+        }).then((result) => {
+          if (result.isConfirmed) {
+            reiniciarJuego();
+          }
+        });
+  
+        // Deshabilitar los botones para evitar que se siga jugando
+        botones.forEach((btn) => {
+            btn.disabled = true; // Deshabilitar todos los botones de respuesta
+        });
+  
+        return; // Finalizar la función
+      }
+  
       // Muestra la respuesta correcta en verde
       for (let j = 0; j < botones.length; j++) {
         if (posibles_respuestas[j] == pregunta.respuesta) {
@@ -85,15 +118,39 @@ const pulsarBoton = (i) => {
   
     setTimeout(() => {
       reiniciar();
-    }, 2000);
+    }, 1500);
 };
   
 const reiniciar = () => {
-    for (const btn of botones) {
-      btn.style.background = "white";
-    }
+    botones.forEach((btn) => {
+        btn.style.background = "white";
+        btn.disabled = false; // Habilitar todos los botones de respuesta
+    });
+  
+    const intentosElement = select_id("intentos");
+    intentosElement.innerHTML = `Intentos restantes: ${intentosRestantes}`; // Actualizar el contador de intentos
   
     preguntaAleatoria();
+    actualizarPuntaje();
+};
+  
+const reiniciarJuego = () => {
+    respuestasAcertadas = 0;
+    fallos = 0;
+    preguntasRespondidas = 0;
+    intentosRestantes = 5; // Reiniciar el contador de intentos
+  
+    // Habilitar los botones
+    botones.forEach((btn) => {
+        btn.disabled = false; // Habilitar todos los botones de respuesta
+    });
+    
+    reiniciar();
+};
+  
+const actualizarPuntaje = () => {
+    const puntajeElement = select_id("puntaje");
+    puntajeElement.innerHTML = `Número de aciertos: ${respuestasAcertadas} / ${preguntasRespondidas}`;
 };
   
 const escogerPregunta = () => {
@@ -110,8 +167,11 @@ const escogerPregunta = () => {
 };
   
 escogerPregunta();
-
-for (let i = 0; i < botones.length; i++) {
-    botones[i].addEventListener("click", () => pulsarBoton(i));
-}
-
+  
+// Actualizar el contador de intentos inicial
+const intentosElement = select_id("intentos");
+intentosElement.innerHTML = `Intentos restantes: ${intentosRestantes}`;
+  
+botones.forEach((btn, i) => {
+    btn.addEventListener("click", () => pulsarBoton(i));
+});
