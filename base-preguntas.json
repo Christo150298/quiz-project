@@ -1,0 +1,12 @@
+[
+    {
+        "categoria": "Arte y Literatura",
+        "pregunta": "¿Quién pinto la Mona Lisa?",
+        "respuesta": "Leonardo Da Vinci",
+        "incorrecta1": "Picasso",
+        "incorrecta2": "Miguel Angel",
+        "incorrecta3": "Monet",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mona_Lisa_face_800x800px.jpg",
+        "object_fit": "cover"
+    }
+]
